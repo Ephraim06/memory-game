@@ -58,7 +58,7 @@ cardArray.sort(() => 0.5 - Math.random())
 const gridDisplay = document.querySelector('#grid')
 const cardsChosen = []
 const cardsChosenIds = []
-const (cardsWon) = []
+const cardsWon = []
 
 // Function with event listener on click, that flips the images.
 
@@ -78,7 +78,7 @@ createBoard()
 function checkMatch() {
  const cards = document.querySelectorAll('img')
  console.log(cards)
- 
+
     console.log('check for match!')
     if (cardsChosen[0] == cardsChosen[1]) {
         alert('You Found a match')
