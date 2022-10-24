@@ -85,7 +85,7 @@ function checkMatch() {
     }
 }
 
-// Function that flips the card, and logs in console the Card ID, i.e Milkshake, Pizza, etc.
+// Function that flips the card, and logs in the Dev console the Card ID, i.e Milkshake, Pizza, etc.
 
 function flipCard() {
     console.log(cardArray)
