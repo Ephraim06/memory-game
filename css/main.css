@@ -4,9 +4,3 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-body {
-    align-items: center !important;
-    margin-left: 800px;
-    margin-top: 200px;
-}
